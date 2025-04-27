@@ -38,7 +38,7 @@ class Program
         Console.WriteLine(guess);
 
         //Celsius to Fahrenheit
-        Console.WriteLine("What is the temperature in Fahrenheit?");
+        /*Console.WriteLine("What is the temperature in Fahrenheit?");
         Console.Write("Write a number in Celsius!");
         string? temp = Console.ReadLine();
 
@@ -48,7 +48,19 @@ class Program
         }
 
         double fahrenheit = celsius * 9.0 / 5.0 + 32;
-        Console.WriteLine($"{celsius}C = {fahrenheit}F");
+        Console.WriteLine($"{celsius}C = {fahrenheit}F");*/
 
+        //Playing around I guess
+        string s1 = "100";
+        string s2 = "10";
+        string s3 = "10.50";
+
+        int i1 = Convert.ToInt32(s1);
+        int i2 = Convert.ToInt32(s2);
+        double i3 = Convert.ToDouble(s3);
+
+        Console.WriteLine(i1);
+        Console.WriteLine(i2);
+        Console.WriteLine(i3);
     }
 }
