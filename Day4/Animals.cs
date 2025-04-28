@@ -6,6 +6,8 @@ public abstract class Animal {
         public abstract void Speak();
         public virtual void Eat()
             => Console.WriteLine($"{Name} is eating.");
+        public virtual void Print()
+            => Console.WriteLine($"{Name} can't print money, Silly, it's an animal!");
     }
 
     // Mammal subclass
@@ -46,5 +48,29 @@ public abstract class Animal {
     public class Fish : Animal {
         public Fish(string name) : base(name) { }
         public override void Speak()
-            => Console.WriteLine($"{Name} says Glup Glup!");
+            => Console.WriteLine($"{Name} says Glub Glub!");
+    }
+
+    public class Promfrit : Animal {
+        public Promfrit(string name) : base(name) { }
+        public override void Speak()
+            => Console.WriteLine($"{Name} says SKRRRRRRRRT!");
+        public override void Print()
+            => Console.WriteLine($"{Name} prints a ton of money, DOLLAR DOLLAR!!!");
+    }
+
+    public class Stigo : Animal {
+        public Stigo(string name) : base(name) { }
+        public override void Speak()
+            => Console.WriteLine($"{Name} says I LOOOOOOVE, I LOOOOOOVE, I LOOOOOooooOOOOOOVE");
+        public override void Print()
+            => Console.WriteLine($"{Name} looks tirelessly through excel documents");
+    }
+
+    public class Kpzet : Animal {
+        public Kpzet(string name) : base(name) { }
+        public override void Speak()
+            => Console.WriteLine($"{Name} Nej, nej, nej, nej, nej. Skal vi have Kpsex? ;^)");
+        public override void Print()
+            => Console.WriteLine($"{Name} Headshots you in Marvel Rivels, funny ekks d");
     }

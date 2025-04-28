@@ -18,16 +18,38 @@
             }
 
             var zoo = new List<Animal> {
+                new Promfrit("Anton"),
+                new Stigo("Oliver"),
+                new Kpzet("Viggo"),
                 new Dog("Rexy"),
                 new Cat("Dodo"),
+                new Cat("Lau"),
                 new Bird("Jack"),
-                new Fish("Nemo")
+                new Fish("Nemo"),
             };
             Console.WriteLine("\nAnimal behaviour");
             foreach (var a in zoo) {
                 a.Speak();
                 a.Eat();
+                a.Print();
                 Console.WriteLine();
+            }
+
+            Chorus(zoo);
+            FeedAll(zoo);
+
+            static void Chorus(IEnumerable<Animal> animals) {
+                Console.WriteLine("\n--- Animal Chorus ---");
+                foreach (var animal in animals) {
+                    animal.Speak();
+                }
+            }
+
+            static void FeedAll(IEnumerable<Animal> animals) {
+                Console.WriteLine("\n--- Feeding Time ---");
+                foreach (var animal in animals) {
+                    animal.Eat();
+                }
             }
         }
     }
