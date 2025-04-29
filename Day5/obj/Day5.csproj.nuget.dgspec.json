@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day4\\day4.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day5\\Day5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day4\\day4.csproj": {
+    "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day5\\Day5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day4\\day4.csproj",
-        "projectName": "day4",
-        "projectPath": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day4\\day4.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day5\\Day5.csproj",
+        "projectName": "Day5",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day5\\Day5.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day4\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Github\\Projects\\CSharpHercules\\Day5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
