@@ -12,7 +12,7 @@
                 new Triangle(3, 4, 5),
                 new Pentagon(4, 5)
             };
-            Console.WriteLine("Shape Calculations");
+            Console.WriteLine("--- Shape Calculations ---");
             foreach (var s in shapes) {
                 Console.WriteLine($"{s.Name} area = {s.Area():F2}");
             }
@@ -27,7 +27,7 @@
                 new Bird("Jack"),
                 new Fish("Nemo"),
             };
-            Console.WriteLine("\nAnimal behaviour");
+            Console.WriteLine("\n--- Animal behaviour ---");
             foreach (var a in zoo) {
                 a.Speak();
                 a.Eat();
